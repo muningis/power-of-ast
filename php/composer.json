@@ -3,14 +3,18 @@
   "description": "This is the description of the project.",
   "license": "MIT",
   "minimum-stability": "dev",
+  "scripts": {
+    "run": "php src/Parser/Main.php"
+  },
   "autoload": {
-    "psr-0": {
-      "HelloWorld": "src/"
+    "psr-4": {
+      "Parser\\": "src/Parser/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "CustomCSRules\\": "lib/PHPCSFixer/"
+      "CustomCSRules\\": "lib/PHPCSFixer/",
+      "Tests\\": "tests/"
     }
   },
   "require": {
