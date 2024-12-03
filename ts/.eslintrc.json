@@ -1,0 +1,12 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["ast-demo"],
+  "overrides": [
+    {
+      "files": ["packages/basic-ast/src/**/*.mts"],
+      "rules": {
+        "ast-demo/hard-const": "off"
+      }
+    }
+  ]
+}

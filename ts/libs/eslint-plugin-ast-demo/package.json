@@ -1,0 +1,23 @@
+{
+  "name": "eslint-plugin-ast-demo",
+  "version": "0.1.0",
+  "private": true,
+  "main": "./index.js",
+  "scripts": {
+    "test": "vitest",
+    "build": "tsc -b"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.1.3",
+    "@typescript-eslint/rule-tester": "6.21.0",
+    "@typescript-eslint/types": "6.21.0",
+    "@typescript-eslint/utils": "6.21.0",
+    "eslint": "8.57.0",
+    "vitest": "1.6.0"
+  },
+  "peerDependencies": {
+    "eslint": "8.57.0",
+    "@typescript-eslint/types": "6.21.0",
+    "@typescript-eslint/utils": "6.21.0"
+  }
+}

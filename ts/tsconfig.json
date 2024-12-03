@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "NodeNext",
+    "module": "NodeNext",
+    "target": "ESNext",
+    "types": ["bun-types"],
+    "noEmit": true,
+    "allowImportingTsExtensions": true
+  }
+}

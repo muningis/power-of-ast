@@ -1,0 +1,12 @@
+{
+  "$schema": "https://turbo.build/schema.json",
+  "globalDependencies": [],
+  "tasks": {
+    "build": {},
+    "runner": {},
+    "test": {},
+    "lint": {
+      "dependsOn": ["build"]
+    }
+  }
+}
