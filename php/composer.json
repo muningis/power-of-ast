@@ -4,7 +4,7 @@
   "license": "MIT",
   "minimum-stability": "dev",
   "scripts": {
-    "run": "php src/Parser/Main.php"
+    "run-parser": "php src/Parser/Main.php"
   },
   "autoload": {
     "psr-4": {
